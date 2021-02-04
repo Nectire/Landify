@@ -1,2 +1,2 @@
 # Landify
-Simple website with js animation
+Free simple website template layout with js animation.
