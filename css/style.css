@@ -555,6 +555,9 @@
 	text-align: left;
 	align-items: flex-start;
 }
+.world-row img{
+	max-width: 100%;
+}
 .world-row .headline-title,
 .world-row .headline-text{
 	margin: 0 0 48px 0;
@@ -1051,6 +1054,23 @@ body.lock{
 		justify-content: space-between;
 	}
 	.stat-text {}
+
+	.headline-title {
+	margin: 0 0 25px 0;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 700;
+	color: #18191F;
+
+}
+.headline-text {
+	margin: 0 0 32px 0;
+	font-size: 16px;
+	line-height: 30px;
+}
+.headline-column:last-child{
+	padding: 0 30px 0 30px;
+}
 	.stat-item {
 		max-width: 200px;
 		text-align: left;
@@ -1058,13 +1078,16 @@ body.lock{
 	}
 	.stat-num {
 		text-align: left;
+		margin: 0 0 0 40px;
+	}
+	.stat-name {margin: 0 0 0 40px;
+	}
 
-		margin: 0 0 0 40px;}
-	.stat-name {margin: 0 0 0 40px;}
 	.project-title{
 		font-size: 32px;
 		line-height: 40px;
 	}
+
 	.project-text{
 		margin-bottom: 30px;
 	}
